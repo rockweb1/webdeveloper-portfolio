@@ -43,6 +43,12 @@ nav a{
     
 }
 
+/*main section */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
 /*header related style*/
 .header{
     background-color: #FFF8F3;;
@@ -89,6 +95,20 @@ nav a{
   border-radius: 10px;
   background: #FFF8F3;
   margin:130px 0;
+}
+.about_info_container{
+    display: flex;
+    justify-content:space-around;
+}
+.about_info{
+    text-align: center;
+}
+.info_description{
+    font-weight: 700;
+}
+.info_title{
+    font-weight: 400;
+    color: #757575;
 }
 .section_title{
     color:#181818;
